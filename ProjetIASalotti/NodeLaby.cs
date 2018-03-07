@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace ProjetIASalotti
 {
-    class Class1 : GenericNode
+    class NodeLaby : GenericNode
     {
+        string Name;
+        public NodeLaby(string newname) : base() 
+        {
+            Name = newname;
+        }
+
         public override bool IsEqual(GenericNode N2)
         {return true ; }
         public override double GetArcCost(GenericNode N2)
