@@ -1,1 +1,2 @@
 H:\ProjetIASalotti\ProjetIASalotti\ProjetIASalotti\bin\Debug\ProjetIASalotti.exe.config
+H:\ProjetIASalotti\ProjetIASalotti\bin\Debug\ProjetIASalotti.exe.config
