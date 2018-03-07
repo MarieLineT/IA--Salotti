@@ -79,6 +79,7 @@
             this.resolvebtn.TabIndex = 4;
             this.resolvebtn.Text = "Résoudre";
             this.resolvebtn.UseVisualStyleBackColor = true;
+            this.resolvebtn.Click += new System.EventHandler(this.resolvebtn_Click);
             // 
             // pathlbl
             // 
