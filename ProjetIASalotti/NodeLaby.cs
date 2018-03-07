@@ -15,13 +15,22 @@ namespace ProjetIASalotti
         }
 
         public override bool IsEqual(GenericNode N2)
-        {return true ; }
+        {
+            NodeLaby NT = (NodeLaby)(N2);
+            return (NT.Name == Name);
+        }
         public override double GetArcCost(GenericNode N2)
-        { return 12; }
+        {
+            return (1);
+        }
         public override bool EndState()
-        {return true; }
-        //public override List<GenericNode> GetListSucc()
-        //{ ; }
+        {
+            return true;
+        }
+        public override List<GenericNode> GetListSucc()
+        {
+            ;
+        }
         public override double CalculeHCost()
         {return 12; }
     }
